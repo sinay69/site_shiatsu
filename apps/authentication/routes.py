@@ -20,7 +20,7 @@ from apps.authentication.util import verify_pass
 
 @blueprint.route('/')
 def route_default():
-    return render_template('home/index.html')
+    return render_template('home/about.html')
 
 
 # Login & Registration
